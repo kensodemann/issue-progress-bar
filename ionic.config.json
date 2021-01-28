@@ -1,0 +1,7 @@
+{
+  "name": "issue-progress-bar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
