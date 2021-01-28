@@ -6,11 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['home.page.scss']
 })
 export class HomePage implements OnInit {
-  pct = 0;
+  pct: number;
 
   constructor() {}
 
   ngOnInit() {
+    this.runit();
+  }
+
+  runit() {
+    this.pct = 0;
     let i = setInterval(() => {
       if (this.pct < 1.0) {
         this.pct += 0.01;
