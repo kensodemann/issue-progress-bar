@@ -7,7 +7,8 @@
 </ion-header>
 
 <ion-content class="ion-padding" [fullscreen]="true">
-  <ion-button (click)="runit()" [disabled]="pct < 1">Again!</ion-button>
+  <ion-button (click)="runit()">Run It!</ion-button>
+  <ion-button (click)="pct=0.15">Reset</ion-button>
   <div id="container">
     <ion-progress-bar color="primary" [value]="pct"></ion-progress-bar>
   </div>

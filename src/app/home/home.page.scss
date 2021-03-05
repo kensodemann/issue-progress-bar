@@ -11,6 +11,15 @@
 }
 
 ion-progress-bar {
-  border-radius: 8px;
-  height: 24px;
+  height: 48px;
+}
+
+ion-progress-bar::part(track) {
+  color: red;
+  background: red;
+  border-radius: 12px;
+}
+
+ion-progress-bar::part(progress) {
+  border-radius: 24px;
 }

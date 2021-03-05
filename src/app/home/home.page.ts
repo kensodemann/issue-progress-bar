@@ -11,7 +11,7 @@ export class HomePage implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.runit();
+    this.pct = 0.15
   }
 
   runit() {
